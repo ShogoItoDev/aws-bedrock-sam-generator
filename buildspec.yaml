@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.9
+    commands:
+      - echo "Installing dependencies..."
+      - pip install --upgrade pip
+      - pip install --upgrade boto3
+
+  build:
+    commands:
+      - echo "Running SamGenerator.py..."
+      - python SamGenerator.py
+
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: .
