@@ -29,6 +29,9 @@
 
 ## 処理フロー
 
+![diagram](https://github.com/user-attachments/assets/44e0a7ea-ed4d-4169-adad-9e9b77db8037)
+
+
 1. **ユーザー: 自然言語テキストを配置**
    - ユーザーは、`parameters` フォルダ内に、実現したいサーバーレスアプリケーションの概要を自然言語で記述したテキストファイルを配置します。
 
